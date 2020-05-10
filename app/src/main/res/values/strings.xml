@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ShailendraBaatu</string>
+    <string name="text_welcome">Welcome</string>
+    <string name="button">Start</string>
+</resources>

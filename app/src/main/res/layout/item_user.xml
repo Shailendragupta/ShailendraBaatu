@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/blue_outline_backgraoud"
+    android:padding="5dp"
+    android:layout_margin="5dp">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/textName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Name"
+        />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/textEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/textName"
+        app:layout_constraintLeft_toLeftOf="parent"
+        tools:text="Email"
+        />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/textPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/textEmail"
+        app:layout_constraintLeft_toLeftOf="parent"
+        tools:text="Phone"
+        />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/textCompany"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/textPhone"
+        app:layout_constraintLeft_toLeftOf="parent"
+        tools:text="Company"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
